@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "labm5",
       "title": "LabM5",
@@ -60,7 +60,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 83,
+    "uniqCompNum": 84,
     "versionPublish": "5.5.2",
     "screenshot": "screenshot.png",
     "cssOptimize": false,
@@ -648,7 +648,7 @@
           },
           "_name": "menu01",
           "_sourceTheme": "labm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover\" name=\"itemsHover\" value=\"#ffffff\" condition=\"showItems\">\n        <input type=\"color\" title=\"Drop Down\" name=\"ddColor\" value=\"#ffffff\" condition=\"showItems\">\n        <input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#000000\" condition=\"showItems\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffe885\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">赤崁起家&nbsp; Chakam-thrive</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black show\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">關於</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black show text-primary\" href=\"index.html#slider1-1q\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">動態</a>\n                    </li>\n                    \n                    <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">連結</a>\n                    </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">解憂雜貨店</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"index.html#bottom\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-italic mobi-mbri\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-globe-2 mobi-mbri\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover\" name=\"itemsHover\" value=\"#ffffff\" condition=\"showItems\">\n        <input type=\"color\" title=\"Drop Down\" name=\"ddColor\" value=\"#ffffff\" condition=\"showItems\">\n        <input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#000000\" condition=\"showItems\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffe885\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">赤崁起家&nbsp; Chakam-thrive</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black show\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">關於</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black show text-primary\" href=\"index.html#slider1-1q\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">動態</a>\n                    </li>\n                    \n                    <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">連結</a>\n                    </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">解憂雜貨店</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"index.html#bottom\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-italic mobi-mbri\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-globe-2 mobi-mbri\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_cid": "sLNDtG42fq",
           "_anchor": "menu01-1",
           "_PHPplaceholders": [],
@@ -1699,7 +1699,7 @@
           },
           "_name": "menu01",
           "_sourceTheme": "labm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover\" name=\"itemsHover\" value=\"#ffffff\" condition=\"showItems\">\n        <input type=\"color\" title=\"Drop Down\" name=\"ddColor\" value=\"#ffffff\" condition=\"showItems\">\n        <input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#000000\" condition=\"showItems\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffe885\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">赤崁起家&nbsp; Chakam-thrive</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black show\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">關於</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black show text-primary\" href=\"index.html#slider1-1q\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">動態</a>\n                    </li>\n                    \n                    <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">連結</a>\n                    </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">解憂雜貨店</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"index.html#bottom\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-italic mobi-mbri\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-globe-2 mobi-mbri\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover\" name=\"itemsHover\" value=\"#ffffff\" condition=\"showItems\">\n        <input type=\"color\" title=\"Drop Down\" name=\"ddColor\" value=\"#ffffff\" condition=\"showItems\">\n        <input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#000000\" condition=\"showItems\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffe885\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">赤崁起家&nbsp; Chakam-thrive</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black show\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">關於</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black show text-primary\" href=\"index.html#slider1-1q\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">動態</a>\n                    </li>\n                    \n                    <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">連結</a>\n                    </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">解憂雜貨店</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"index.html#bottom\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-italic mobi-mbri\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-globe-2 mobi-mbri\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_cid": "sLNDtG42fq",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
@@ -1710,185 +1710,258 @@
           "_anchor": "menu01-21"
         },
         {
-          "_name": "slider2",
-          "_sourceTheme": "journalm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider2\" group=\"Gallery & Slider\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Link\" name=\"showLink\">\n        <input type=\"checkbox\" title=\"Additional\" name=\"showSocial\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\" checked>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked>\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"3\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#fffdf7\" selected>\n    </mbr-parameters>\n\n    <div class=\"main-container col-12\" mbr-class=\"{'row-reverse' : reverse}\">\n        <div class=\"text-container col-12 col-md-6\">\n            <div class=\"col-12 main-text\">\n                <div class=\"col-12\">\n                    <p class=\"mbr-text mbr-fonts-style text-with-round m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showLabel\" data-app-selector=\".text-with-round\">\n                        APPLIED ARTS</p>\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3 title mt-2\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                        城市走繪-手繪速寫展覽\n                    </h3>\n                    <p class=\"mbr-text mbr-fonts-style mt-3 mb-0 text\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".text\">走吧!!!畫吧!!!<br>不要猶豫.只要一張紙一枝筆就可以開始!!!<br>15分鐘可以做什麼?滑手機,看臉書.開IG?<br>畫圖可以很簡單<br>直線畫不直尺不可恥。圓圈畫不圓,快找個杯子不用很厲害才可以開始,只要敢開始就可以很厲害生活美學現在就可以開始!!!<br><br><br>*\t建築古蹟：描繪台南各歷史建築<br>\n*\t街道巷弄：深入台南巷弄探尋常民文化\n<br>*\t生活速寫：台南為美食之都，描寫豐富多元的飲食<br>\n*\t繪畫工作室的日常 Open studio<br></p>\n                    <p class=\"link mbr-fonts-style align-left mt-4 mb-4 \" mbr-if=\"showLink\" mbr-theme-style=\"display-7\" data-app-selector=\".link\">\n                        <a class=\"text-black underlined-link\" href=\"#\">EXPLORE THE PROJECT</a>\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-12\">\n                <div class=\"link-wrap\" mbr-if=\"showSocial\">\n                    <p class=\"link mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".link\">\n                        <a class=\"text-black emerging-underline-link\" href=\"#\">Abstract</a>\n                         /\n                        <a class=\"text-black emerging-underline-link\" href=\"#\">Print</a>\n                    </p>\n                </div>\n            </div>\n        </div>\n        <div id=\"{{sliderId}}\" class=\"carousel slide col-12 col-md-6\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-bs-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\" data-bs-interval=\"{{interval*1000}}\">\n            <ol class=\"carousel-indicators\">\n                <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"active\"></li>\n                <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></li>\n                <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"2\" data-bs-slide-to=\"2\"></li>\n            </ol>\n            <div class=\"carousel-inner col-12\">\n                <div class=\"carousel-item slider-image item active\">\n                    <div class=\"item-wrapper\">\n                        <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/1641787374628-1056x1247.jpg\">\n                        <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                        </div>\n                    </div>\n                </div>\n                <div class=\"carousel-item slider-image item\">\n                    <div class=\"item-wrapper\">\n                        <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/1642001620551-640x904.jpg\">\n                        <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                        </div>\n                    </div>\n                </div>\n                <div class=\"carousel-item slider-image item\">\n                    <div class=\"item-wrapper\">\n                        <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/1642001629294-707x992.jpg\">\n                        <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n                <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only visually-hidden\">Previous</span>\n            </a>\n            <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n                <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only visually-hidden\">Next</span>\n            </a>\n        </div>\n    </div>\n\n</section>",
+          "_name": "slider1",
+          "_sourceTheme": "snackm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider1\" group=\"Gallery & Slider\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Details\" name=\"showDetails\">\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" condition=\"showDetails\" checked>\n        <input type=\"color\" title=\"Color\" name=\"lineColor\" value=\"#ffffff\" condition=\"showDetails && showLine\">\n        <input type=\"range\" title=\"Opacity\" name=\"lineOpacity\" min=\"0.1\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"showDetails && showLine\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <select title=\"Align\" name=\"alignButtons\" condition=\"showButtons\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Indicators\" name=\"showIndicators\">\n        <input type=\"color\" title=\"Color\" name=\"indicatorsColor\" value=\"#ffffff\" condition=\"showIndicators\">\n        <input type=\"checkbox\" title=\"Controls\" name=\"showControls\" checked>\n        <input type=\"color\" title=\"Color\" name=\"controlsColor\" value=\"#666666\" condition=\"showControls\">\n        <input type=\"color\" title=\"Hover\" name=\"controlsHoverColor\" value=\"#33d5ad\" condition=\"showControls\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked>\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"3\" step=\"1\" condition=\"autoplay\">\n        <header>Nutrition</header>\n        <input type=\"checkbox\" title=\"Show\" name=\"showNutrition\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showCardTitle\" condition=\"showNutrition\" checked>\n        <input type=\"checkbox\" title=\"Decoration\" name=\"decoration\" condition=\"showNutrition\" checked>\n        <input type=\"color\" title=\"Color\" name=\"decorationColor\" value=\"#1f1437\" condition=\"showNutrition && decoration\">\n        <header condition=\"showNutrition\">Card Background</header>\n        <input type=\"checkbox\" title=\"1 Transparent\" name=\"cardOneTr\" condition=\"showNutrition\" checked>\n        <input type=\"color\" title=\"Color\" name=\"cardOneBg\" value=\"#1f1437\" condition=\"showNutrition && !cardOneTr\">\n        <input type=\"checkbox\" title=\"2 Transparent\" name=\"cardTwoTr\" condition=\"showNutrition\" checked>\n        <input type=\"color\" title=\"Color\" name=\"cardTwoBg\" value=\"#1f1437\" condition=\"showNutrition && !cardTwoTr\">\n        <input type=\"checkbox\" title=\"3 Transparent\" name=\"cardThreeTr\" condition=\"showNutrition\" checked>\n        <input type=\"color\" title=\"Color\" name=\"cardThreeBg\" value=\"#1f1437\" condition=\"showNutrition && !cardThreeTr\">\n        <input type=\"checkbox\" title=\"4 Transparent\" name=\"cardFourTr\" condition=\"showNutrition\">\n        <input type=\"color\" title=\"Color\" name=\"cardFourBg\" value=\"#1f1437\" condition=\"showNutrition && !cardFourTr\">\n        <header condition=\"showNutrition\">Card Border</header>\n        <input type=\"color\" title=\"One\" name=\"cardOneBorder\" value=\"#ffffff\" condition=\"showNutrition\">\n        <input type=\"color\" title=\"Two\" name=\"cardTwoBorder\" value=\"#ffffff\" condition=\"showNutrition\">\n        <input type=\"color\" title=\"Three\" name=\"cardThreeBorder\" value=\"#ffffff\" condition=\"showNutrition\">\n        <input type=\"color\" title=\"Four\" name=\"cardFourBorder\" value=\"#1f1437\" condition=\"showNutrition\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/snackm5/components/_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#f8c37e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row content\">\n            <div class=\"col-12 col-lg-6\">\n                <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-bs-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\" data-bs-interval=\"{{interval*1000}}\">\n                    <ol class=\"carousel-indicators\" mbr-if=\"showIndicators\">\n                        <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"active\"></li>\n                        <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></li>\n                        <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"2\" data-bs-slide-to=\"2\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\">\n                        <div class=\"carousel-item slider-image item active\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/1641787374628-960x1134.jpg\">\n                            </div>\n                        </div>\n                        <div class=\"carousel-item slider-image item\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/1642001620551-713x1007.jpg\">\n                            </div>\n                        </div>\n                        <div class=\"carousel-item slider-image item\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/1642001629294-707x992.jpg\">\n                            </div>\n                        </div>\n                    </div>\n                    <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\" mbr-if=\"showControls\">\n                        <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only visually-hidden\">Previous</span>\n                    </a>\n                    <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\" mbr-if=\"showControls\">\n                        <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only visually-hidden\">Next</span>\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"text\">\n                    <div class=\"text-wrapper\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\">\n                            <b>TASTE</b>\n                        </h5>\n                        <h3 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                            <b>城市走繪-手繪速寫展覽</b>\n                        </h3>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">走吧!!!畫吧!!!<br>不要猶豫.只要一張紙一枝筆就可以開始!!!<br>15分鐘可以做什麼?滑手機,看臉書.開IG?<br>畫圖可以很簡單<br>直線畫不直尺不可恥。圓圈畫不圓,快找個杯子不用很厲害才可以開始,只要敢開始就可以很厲害生活美學現在就可以開始!!!<br><br><br>* 建築古蹟：描繪台南各歷史建築<br>* 街道巷弄：深入台南巷弄探尋常民文化<br>* 生活速寫：台南為美食之都，描寫豐富多元的飲食<br>* 繪畫工作室的日常 Open studio</p>\n                    </div>\n                    <div class=\"nutrition\" mbr-if=\"showNutrition\">\n                        <h3 class=\"mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\">\n                            <b>NUTRITION PER SERVING</b>\n                        </h3>\n                        <div class=\"nutrition-wrap\">\n                            <div class=\"nutrition-tile tile-one\">\n                                <p class=\"mbr-tile-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-tile-text\">PROTEIN</p>\n                                <p class=\"mbr-tile-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-tile-number\"><b>12,15</b></p>\n                            </div>\n                            <div class=\"nutrition-tile tile-two\">\n                                <p class=\"mbr-tile-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-tile-text\">FAT</p>\n                                <p class=\"mbr-tile-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-tile-number\"><b>12,15</b></p>\n                            </div>\n                            <div class=\"nutrition-tile tile-three\">\n                                <p class=\"mbr-tile-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-tile-text\">CARBS</p>\n                                <p class=\"mbr-tile-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-tile-number\"><b>14,5</b></p>\n                            </div>\n                            <div class=\"nutrition-tile tile-four\">\n                                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 118 104\" fill=\"none\">\n                                    <path d=\"M94.9869 66.7718C91.7751 66.4762 89.049 66.2941 86.3455 65.9583C81.7583 65.4076 77.2524 64.6595 73.176 62.2058C69.0426 59.7122 66.997 56.0506 67.5116 51.3533C67.832 48.4696 68.9341 45.6803 69.7858 42.8855C70.1246 41.7944 70.7765 40.781 71.5171 39.2363C69.158 40.1865 67.3165 40.9617 65.4447 41.6592C60.8779 43.383 56.3777 45.2945 51.7216 46.7015C45.351 48.6617 40.8666 46.0641 39.1207 39.589C38.4379 37.0494 38.3696 34.3178 38.049 31.6642C37.9574 30.8656 37.9815 30.0632 37.9448 29.1052C34.5039 32.2092 31.2774 35.2087 27.9577 38.0584C20.2056 44.7032 13.9137 39.8817 11.7825 33.109C11.2121 31.2978 11.0761 29.3098 10.9192 27.3921C10.8576 26.106 11.4809 24.9313 12.9017 24.8791C14.1878 24.8175 14.7424 25.8832 14.9861 27.0706C15.243 28.2389 15.4221 29.4377 15.8023 30.551C16.249 31.852 16.7147 33.1663 17.4079 34.3571C19.3641 37.702 21.7776 38.3719 25.0237 36.2336C27.318 34.7296 29.4015 32.8805 31.4775 31.0826C33.4093 29.41 35.2728 27.6331 37.1363 25.8562C38.107 24.9526 39.1155 24.0755 40.5253 24.5241C42.1457 25.0351 42.2928 26.5223 42.436 27.8937C42.6288 29.6388 42.558 31.3973 42.8475 33.1253C43.1848 35.3104 43.5733 37.503 44.2406 39.5798C45.155 42.3942 46.6126 43.3 49.5278 42.7668C52.3142 42.2565 55.1364 41.5735 57.8105 40.6174C63.5284 38.54 69.1476 36.2806 74.7801 34.0022C76.1152 33.4663 77.295 33.2739 78.3315 34.3374C79.3243 35.3421 79.0349 36.5241 78.4571 37.6741C77.4228 39.7197 76.286 41.7503 75.3599 43.8433C74.5549 45.6821 73.7614 47.5853 73.3075 49.5281C72.0819 54.7172 73.685 57.7589 78.4917 60.0167C82.1028 61.7215 85.9297 62.673 89.8701 63.1388C92.7082 63.484 95.5633 63.6433 98.3975 63.8727C99.8981 63.9893 101.45 64.1134 101.977 65.8658C102.454 67.5273 101.389 68.6472 100.293 69.6894C99.8208 70.1223 99.2861 70.4831 98.7704 70.8571C97.72 71.592 96.7 72.4046 95.5812 73.0352C87.2928 77.7797 85.5547 85.2379 86.9759 93.9157C87.2426 95.5146 88.0119 97.0412 88.6011 98.583C88.8861 99.3473 89.4102 100.053 89.5985 100.834C89.7469 101.39 89.721 102.276 89.374 102.57C89.0005 102.902 88.1279 102.857 87.5967 102.768C86.4451 102.557 85.3479 101.62 84.7516 100.695C83.578 98.8578 82.4783 96.8743 81.8945 94.7994C80.5823 90.2096 80.7308 85.5107 81.714 80.8301C82.5535 76.8402 84.9131 73.828 88.0813 71.4375C90.1707 69.9033 92.3589 68.5511 94.9869 66.7718Z\">\n                                    </path>\n                                </svg>\n                                <p class=\"mbr-tile-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-tile-text\">ENERGY</p>\n                                <p class=\"mbr-tile-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-tile-number\"><b>205,7</b></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"price\" mbr-if=\"showDetails\">\n                        <div class=\"price-text-wrap\">\n                            <div>\n                                <p class=\"mbr-price-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-price-text\">PRICE</p>\n                                <p class=\"mbr-price-number mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-price-number\">$80</p>\n                            </div>\n                            <div class=\"line\"></div>\n                            <div>\n                                <p class=\"mbr-amount-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-amount-text\">AMOUNT</p>\n                                <p class=\"mbr-amount-number mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-amount-number\">16</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"buttons-wrap\">\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn {{alignButtons}}\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a class=\"btn btn-white-outline btn-size\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><b>DETAILS</b></a>\n                            <a class=\"btn btn-size btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><strong>ADD</strong></a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            "display": "flex",
-            "flex-direction": "column",
-            ".main-container": {
-              "display": "flex",
-              "flex-wrap": "wrap",
-              "flex-grow": "1",
-              "border-bottom": "1px solid #7F8678",
-              "border-top": "1px solid #7F8678",
-              "margin-top": "-1px",
-              "height": "auto"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".row-reverse": {
-              "display": "flex",
-              "flex-direction": "row-reverse"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            ".text-container": {
-              "display": "flex",
-              "flex-direction": "column",
-              "padding": "25px 32px",
-              "border-bottom": "1px solid #7F8678",
-              "@media (min-width: 768px)": {
-                "border-bottom": "none",
-                "border-right": "1px solid #7F8678",
-                "& when (@reverse)": {
-                  "border-right": "none",
-                  "border-left": "1px solid #7F8678"
-                }
-              },
-              "@media (max-width: 991px)": {
-                "min-height": "50vh"
-              },
-              "@media (min-width: 992px)": {
-                "min-height": "100%"
+            "& when (@reverse)": {
+              ".row": {
+                "flex-direction": "row-reverse"
               }
             },
-            ".main-text": {
-              "margin": "0 0 auto",
-              "@media (min-width: 768px)": {
-                "width": "50%"
-              },
-              "@media (max-width: 767px)": {
-                "margin-bottom": "208px"
-              }
+            ".container-fluid": {
+              "padding": "0"
             },
-            ".carousel": {
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center",
-              "flex-direction": "column",
-              "height": "auto",
-              "img": {
-                "width": "100%",
-                "object-fit": "cover",
-                "height": "800px",
-                "flex-grow": "1"
-              }
+            ".row": {
+              "margin": "0"
             },
-            ".carousel-item, .carousel-inner": {
-              "height": "100%"
+            "div[class*=\"col\"]": {
+              "padding": "0"
             },
-            ".carousel-item": {
-              "@media (max-width: 767px)": {
-                "height": "50vh"
-              }
-            },
-            ".carousel-inner": {
-              "@media (max-width: 767px)": {
-                "height": "auto",
-                "max-height": "100%",
-                "max-width": "100%",
-                "margin": "0 auto"
-              }
-            },
-            ".carousel-caption": {
-              "bottom": "40px"
-            },
-            ".mobi-mbri-arrow-next": {
-              "margin-left": "5px"
-            },
-            ".mobi-mbri-arrow-prev": {
-              "margin-right": "5px"
+            ".carousel, .carousel-inner, .carousel-item": {
+              "height": "100%",
+              "transition": "all ease-in-out 0.3s"
             },
             ".item-wrapper": {
-              "width": "100%",
-              "height": "100%",
-              "display": "flex",
-              "flex-direction": "column",
-              "align-items": "center",
-              "justify-content": "center"
+              "width": "100%"
             },
-            "@media (max-width: 767px)": {
-              ".container .carousel-control": {
-                "margin-bottom": "0"
-              },
-              ".content-slider-wrap": {
-                "width": "100% !important"
-              },
-              ".carousel-indicators": {
-                "display": "flex !important"
-              }
+            "img": {
+              "height": "100%",
+              "object-fit": "cover"
             },
             ".carousel-control": {
-              "top": "20%",
-              "width": "30%",
-              "height": "60%",
-              "margin-top": "-1.5rem",
-              "font-size": "22px",
-              "background-color": "#000000",
-              "border": "2px solid #fff",
-              "transition": "all 0.3s",
-              "opacity": "0",
-              "&.carousel-control-prev": {
-                "left": "0"
+              "width": "30px",
+              "height": "30px",
+              "border-radius": "50%",
+              "background-color": "@controlsColor",
+              "opacity": "1",
+              "top": "50%",
+              "span": {
+                "font-size": "0.7rem",
+                "opacity": "0.6"
               },
-              "&.carousel-control-next": {
-                "right": "0"
-              },
-              "@media (max-width: 767px)": {
-                "margin": "0",
-                "top": "20%",
-                "height": "60%",
-                "width": "30%",
-                "&.carousel-control-prev": {
-                  "left": "0",
-                  "margin-left": "50px"
+              "&:hover": {
+                "background-color": "@controlsHoverColor"
+              }
+            },
+            ".carousel-control-prev": {
+              "left": "20px"
+            },
+            ".carousel-control-next": {
+              "right": "20px"
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "20px",
+              "height": "3px",
+              "border": "none",
+              "border-radius": "0",
+              "background-color": "@indicatorsColor",
+              "opacity": "1"
+            },
+            ".carousel-indicators li": {
+              "width": "20px",
+              "height": "3px",
+              "opacity": "0.5"
+            },
+            ".text": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "margin-bottom": "2.3rem",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff",
+              "& when (@showTitle)": {
+                "margin-bottom": "0"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "margin-bottom": "27px",
+              "text-align": "left"
+            },
+            "@media (min-width: 992px)": {
+              ".text-wrapper, .nutrition, .price, .buttons-wrap": {
+                "padding-left": "4.5rem",
+                "@media (max-width: 1199px)": {
+                  "padding-left": "2.375rem"
                 },
-                "&.carousel-control-next": {
-                  "right": "0",
-                  "margin-right": "50px"
+                "@media (max-width: 1099px)": {
+                  "padding-left": "1rem"
+                },
+                "@media (max-width: 1030px)": {
+                  "padding-left": "0.8rem"
+                },
+                "@media (max-width: 991px)": {
+                  "padding-left": "0"
                 }
               }
             },
-            ".carousel-indicators": {
-              "position": "absolute",
-              "bottom": "0",
-              "margin-bottom": "24px !important",
-              "margin-right": "24px",
-              "margin-left": "24px",
-              "justify-content": "flex-end",
-              "li": {
-                "max-width": "7px",
-                "height": "7px",
-                "width": "7px",
-                "max-height": "7px",
-                "margin": "0 10px",
-                "background-color": "transparent",
-                "border": "1px solid #000000",
-                "border-radius": "50%",
-                "transition": "all 0.3s",
-                "opacity": "1 !important",
-                "&.active": {
-                  "background-color": "#000000",
-                  "opacity": "1 !important"
-                },
-                "&::after, &::before": {
-                  "content": "none"
-                }
-              },
-              "&.ie-fix": {
-                "left": "50%",
-                "display": "block",
-                "width": "60%",
-                "margin-left": "-30%",
+            ".content": {
+              "@media (max-width: 991px)": {
                 "text-align": "center"
+              }
+            },
+            ".mbr-card-title": {
+              "color": "#ffffff",
+              "margin-bottom": "18px"
+            },
+            ".nutrition": {
+              "margin-bottom": "40px"
+            },
+            ".nutrition-wrap": {
+              "display": "flex",
+              "justify-content": "flex-start",
+              "@media (max-width: 991px)": {
+                "justify-content": "center"
               },
-              "@media (max-width: 767px)": {
-                "display": "none !important"
+              "@media (max-width: 479px)": {
+                "flex-wrap": "wrap",
+                "width": "80%",
+                "margin-left": "auto",
+                "margin-right": "auto"
+              },
+              "@media (max-width: 388px)": {
+                "width": "100%"
+              },
+              ".nutrition-tile": {
+                "width": "100px",
+                "height": "100px",
+                "border-radius": "50%",
+                "border-width": "1px",
+                "border-style": "dashed",
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "align-items": "center"
+              }
+            },
+            ".tile-one": {
+              "background-color": "@cardOneBg",
+              "border-color": "@cardOneBorder",
+              "margin-right": "15px",
+              "& when (@cardOneTr)": {
+                "background": "transparent"
+              },
+              "@media (max-width: 479px)": {
+                "margin-right": "25px"
+              }
+            },
+            ".tile-two": {
+              "background-color": "@cardTwoBg",
+              "border-color": "@cardTwoBorder",
+              "margin-right": "15px",
+              "& when (@cardTwoTr)": {
+                "background": "transparent"
+              }
+            },
+            ".tile-three": {
+              "background-color": "@cardThreeBg",
+              "border-color": "@cardThreeBorder",
+              "margin-right": "15px",
+              "& when (@cardThreeTr)": {
+                "background": "transparent"
+              },
+              "@media (max-width: 479px)": {
+                "margin-top": "25px",
+                "margin-right": "25px"
+              }
+            },
+            ".tile-four": {
+              "background-color": "@cardFourBg",
+              "border-color": "@cardFourBorder",
+              "margin-right": "15px",
+              "position": "relative",
+              "& when (@cardFourTr)": {
+                "background": "transparent"
+              },
+              "@media (max-width: 479px)": {
+                "margin-top": "25px"
+              }
+            },
+            "svg": {
+              "position": "absolute",
+              "top": "-35px",
+              "right": "-40px",
+              "width": "80px",
+              "height": "70px",
+              "path": {
+                "fill": "@decorationColor"
+              }
+            },
+            ".mbr-tile-text": {
+              "color": "#ffffff",
+              "margin": "0"
+            },
+            ".mbr-tile-number": {
+              "color": "#ffffff",
+              "margin": "0"
+            },
+            ".price-text-wrap": {
+              "display": "flex",
+              "align-items": "center",
+              "margin-bottom": "23px",
+              "@media (max-width: 991px)": {
+                "justify-content": "center"
+              }
+            },
+            ".line": {
+              "width": "1px",
+              "height": "50px",
+              "margin": "0 20px",
+              "background-color": "@lineColor",
+              "opacity": "@lineOpacity",
+              "& when not (@showLine)": {
+                "opacity": "0"
+              }
+            },
+            ".mbr-price-text": {
+              "color": "#ffffff",
+              "margin-bottom": "0"
+            },
+            ".mbr-price-number": {
+              "color": "#ffffff",
+              "margin-bottom": "0"
+            },
+            ".mbr-amount-text": {
+              "color": "#ffffff",
+              "margin-bottom": "0"
+            },
+            ".mbr-amount-number": {
+              "color": "#ffffff",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-btn": {
+              "& when (@showButtons)": {
+                "display": "flex",
+                "flex-wrap": "wrap"
+              },
+              "@media (max-width: 991px)": {
+                "justify-content": "center!important"
               }
             }
           },
-          "_cid": "sX7G77QqDc",
-          "_anchor": "slider2-2a",
+          "_cid": "sX7IM778gQ",
+          "_anchor": "slider1-2b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
